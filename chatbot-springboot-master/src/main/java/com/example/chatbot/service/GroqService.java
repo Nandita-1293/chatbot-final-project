@@ -44,7 +44,7 @@ public class GroqService {
 
             // Request body
             Map<String, Object> requestBody = new HashMap<>();
-            requestBody.put("model", "llama-3.3-70b-versatile");
+            requestBody.put("model", "llama-3.1-8b-instant");
             requestBody.put("messages", messages);
             requestBody.put("temperature", 0.7);
 
